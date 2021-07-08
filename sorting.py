@@ -23,5 +23,5 @@ Output = sorted(Input,key=tld)
 pd.DataFrame(Output).to_csv("sorted_emails.csv", header=None, index=None)
 
 #Printing output
-print("sorted list according to TLD is")
+print("sorted email list")
 print(Output)
